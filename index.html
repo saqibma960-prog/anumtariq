@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Anum Tariq | Backend Developer</title>
+  <meta name="description" content="Portfolio of Anum Tariq, Backend Developer (PHP/Laravel) based in Islamabad. Frontend and backend work, with a special focus on backend.">
+  <meta name="keywords" content="Anum Tariq, Laravel, PHP, backend developer, Islamabad, portfolio, resume">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('site-theme') === 'dark') {
+          document.documentElement.classList.add('dark-theme');
+        }
+        localStorage.removeItem('site-theme-color');
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo.png?v=4" alt="Anum">
+        <h1 class="sitename">Anum</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="about.html">About Me</a></li>
+              <li class="dropdown"><a href="#"><span>My Work</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="portfolio.html">Laravel Apps</a></li>
+                  <li><a href="portfolio.html">REST APIs</a></li>
+                  <li><a href="portfolio.html">HRMS Work</a></li>
+                  <li><a href="services.html">WordPress</a></li>
+                  <li><a href="contact.html">Hire Me</a></li>
+                </ul>
+              </li>
+              <li><a href="resume.html">Experience</a></li>
+              <li><a href="services.html">Freelance</a></li>
+              <li><a href="contact.html">Get in Touch</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <button type="button" class="theme-toggle" aria-label="Toggle light and dark theme">
+          <i class="bi bi-moon icon-moon"></i>
+          <i class="bi bi-sun icon-sun"></i>
+        </button>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/anum-tariq-471a16306/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/hero-home.jpg" alt="">
+
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="hero-name">Anum Tariq</h2>
+            <p class="hero-tagline">I'm a Backend Developer from Islamabad — I work on both frontend and backend</p>
+            <a href="about.html" class="btn-get-started">About Me</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>A short introduction before you dig into the resume and the work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Anum Tariq">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Backend Developer.</h2>
+            <p class="fst-italic py-3">
+              I work on both frontend and backend, with a special focus on PHP, Laravel, REST APIs, and maintainable backend systems.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Islamabad, Pakistan</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92 325 1838048</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>anumtariqq02@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Focus:</strong> <span>Laravel &amp; REST APIs</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I completed a BS in Computer Science from Virtual University of Pakistan (2021–2025) and now work at Solochoicez (Pvt.) Ltd in Islamabad on an HRMS covering employee data, attendance, leave, and company policies. Day to day I write Laravel backends, design database schemas, and build the interfaces that sit on top of them.
+            </p>
+            <a href="about.html" class="btn-accent">More About Me</a>
+            <a href="resume.html" class="btn-accent btn-accent-outline">View Resume</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>What I Do</h2>
+        <p>Backend first, but comfortable across the whole stack</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>Laravel Development</h3>
+              </a>
+              <p>Build and maintain PHP Laravel apps with MVC, Blade templates, migrations, and clean project structure.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>REST APIs</h3>
+              </a>
+              <p>Develop and consume REST APIs so web frontends and third-party services can talk to the backend safely.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>MySQL &amp; Eloquent</h3>
+              </a>
+              <p>Model data with MySQL, Eloquent relationships, migrations, and eager loading so queries stay fast and readable.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>WordPress</h3>
+              </a>
+              <p>Set up and customize WordPress sites using HTML, CSS, and PHP where a CMS is the right fit.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <div class="icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>Auth &amp; Security</h3>
+              </a>
+              <p>Authentication, authorization, custom middleware, and Form Request validation so users and data stay protected.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <div class="icon">
+                <i class="bi bi-window-desktop"></i>
+              </div>
+              <a href="services.html" class="stretched-link">
+                <h3>HTML / CSS / JavaScript</h3>
+              </a>
+              <p>Responsive pages with Bootstrap, AJAX-driven interfaces, and frontend work that connects cleanly to Laravel backends.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>HTML, CSS, Bootstrap, Tailwind, JavaScript, Laravel, React, and Node.js</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Laravel</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">88%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Bootstrap</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Tailwind CSS</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>React JS</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Node JS</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Featured Work</h2>
+        <p>A few projects from my degree and my work at Solochoicez</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-people"></i></span>
+              <span class="project-tag">Web · Solochoicez</span>
+              <h4>HRMS Employee Records</h4>
+              <p>Employee record management inside the company HRMS — profiles, departments, documents, and search across the whole workforce.</p>
+              <div class="project-tech">
+                <span>Laravel</span>
+                <span>MySQL</span>
+                <span>Blade</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-hdd-network"></i></span>
+              <span class="project-tag">Backend · API</span>
+              <h4>REST API Integration</h4>
+              <p>JSON endpoints written in Laravel and consumed by web clients, tested in Postman and documented for the rest of the team.</p>
+              <div class="project-tech">
+                <span>REST</span>
+                <span>JSON</span>
+                <span>Postman</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-speedometer2"></i></span>
+              <span class="project-tag">Web · Dashboard</span>
+              <h4>HRMS Dashboard</h4>
+              <p>Single overview screen pulling attendance, leave balances, and policy updates together so HR can act without digging through tables.</p>
+              <div class="project-tech">
+                <span>Laravel</span>
+                <span>Bootstrap</span>
+                <span>MySQL</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-window-desktop"></i></span>
+              <span class="project-tag">Web · Laravel</span>
+              <h4>Laravel Web Application</h4>
+              <p>Multi-module web app structured around the MVC pattern, with Blade views, Eloquent models, and reusable form components.</p>
+              <div class="project-tech">
+                <span>PHP</span>
+                <span>Laravel MVC</span>
+                <span>Eloquent</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-phone"></i></span>
+              <span class="project-tag">Mobile · FYP</span>
+              <h4>Android App (CS619)</h4>
+              <p>Final year project built as a full Android application with account creation, login, and a planning module backed by local storage.</p>
+              <div class="project-tech">
+                <span>Android</span>
+                <span>Java</span>
+                <span>SQLite</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card">
+              <span class="project-icon"><i class="bi bi-wordpress"></i></span>
+              <span class="project-tag">Web · CMS</span>
+              <h4>WordPress Website</h4>
+              <p>Content managed site with custom template edits, responsive styling, and small PHP tweaks where the theme fell short.</p>
+              <div class="project-tech">
+                <span>WordPress</span>
+                <span>PHP</span>
+                <span>CSS</span>
+              </div>
+              <a href="portfolio-details.html" class="project-link">View case study <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Project Card -->
+
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+          <a href="portfolio.html" class="btn-accent">View Full Portfolio</a>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Facts</h2>
+        <p>Roles, projects, and certifications from my education and work at Solochoicez</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span class="stat-count" data-start="20" data-end="2">20</span>
+              <p>Companies</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span class="stat-count" data-start="25" data-end="8">25</span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span class="stat-count" data-start="30" data-end="4">30</span>
+              <p>Roles</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span class="stat-count" data-start="20" data-end="2">20</span>
+              <p>Certificates</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Feedback from teammates and colleagues on backend, frontend, and HR work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Hassan Qureshi</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Anum picked up our HRMS backend quickly. She keeps Laravel code clean, documents APIs, and follows through on leave and attendance modules without extra chasing.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Malik Brandon</h3>
+                <h4>Backend Lead</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>During her Laravel internship Anum learned MVC, Eloquent, and REST APIs fast. She wrote validations and middleware the way we already structured the project.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilson</h3>
+                <h4>HR Lead</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>When Anum supported recruitment and candidate queries, communication was clear and on time. She already understood company policies, which made coordination with hiring managers easier.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jenna Karim</h3>
+                <h4>Operations Lead</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Anum is reliable on both frontend and backend. Screens stay consistent with the APIs, and she follows through on HRMS features without extra chasing.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Call To Action Section -->
+    <section id="contact-cta" class="contact-cta section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="cta-box text-center">
+          <h2>Have a project in mind?</h2>
+          <p>I'm available for backend and full-stack work — Laravel applications, REST APIs, and internal tools. Tell me what you need and I'll get back to you within one business day.</p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn-accent">Get in Touch</a>
+            <a href="mailto:anumtariqq02@gmail.com" class="btn-accent btn-accent-outline">Email Me</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="row gy-5 footer-top">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <h3 class="sitename">Anum</h3>
+            <p>Backend Developer in Islamabad. I work on both frontend and backend, with a special focus on backend — Laravel apps, REST APIs, and HR systems.</p>
+            <div class="social-links d-flex">
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/anum-tariq-471a16306/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i> About</a></li>
+            <li><a href="resume.html"><i class="bi bi-chevron-right"></i> Resume</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i> Services</a></li>
+            <li><a href="portfolio.html"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <h4 class="footer-title">Get in Touch</h4>
+          <ul class="footer-contact">
+            <li>
+              <span class="icon"><i class="bi bi-geo-alt"></i></span>
+              <div>
+                <strong>Address</strong>
+                <span>Tarlai Kalan, Lehtrar Road, Islamabad</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><i class="bi bi-telephone"></i></span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+923251838048">+92 325 1838048</a>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><i class="bi bi-envelope"></i></span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:anumtariqq02@gmail.com">anumtariqq02@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><i class="bi bi-linkedin"></i></span>
+              <div>
+                <strong>LinkedIn</strong>
+                <a href="https://www.linkedin.com/in/anum-tariq-471a16306/">anum-tariq-471a16306</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© Copyright <strong>Anum</strong> All Rights Reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
